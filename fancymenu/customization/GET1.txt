@@ -1,0 +1,89 @@
+type = menu
+
+customization-meta {
+  identifier = APT
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  custom_menu_title = HYDRA-GET Package manager
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = assets/6.jpg
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  shape = rectangle
+  color = #ffffff
+  x = 123
+  width = 143
+  action = addshape
+  actionid = 2543009c-f945-4829-ae45-26dc4cffda551678277331383
+  y = 56
+  height = 28
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ff0000
+  shadow = true
+  delayappearanceseconds = 3.0
+  rotation = 0.0
+  scale = 2.0
+  refresh = false
+  advanced_posx = 145
+  advanced_posy = 20
+  bouncing = true
+  fadein = true
+  vanilla-like = false
+  fadeinspeed = 0.7
+  x = 0
+  actionid = ec17232b-8ccc-4361-afce-fcec97b1ea3c1678276658898
+  action = addsplash
+  y = 0
+  delayappearance = true
+  text = HYDRA-GET
+  delayappearanceeverytime = false
+}
+
+customization {
+  input_field_type = text
+  orientation = top-left
+  linked_variable = hydra_get
+  x = 0
+  width = 100
+  action = custom_layout_element:fancymenu_customization_item_input_field
+  actionid = 7b15b3d2-8b77-4c53-afcf-42d5f4e21f891678276806578
+  y = 0
+  advanced_posx = 155
+  max_text_length = 69
+  advanced_posy = 60
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = runcmd
+  backgroundhovered = assets/aa.jpg
+  label = >
+  loopbackgroundanimations = true
+  x = 128
+  width = 20
+  actionid = 40eb6212-04ba-4e4a-871c-d9c05712ff7c1678276841058
+  action = addbutton
+  y = 59
+  backgroundnormal = assets/1.png
+  value = nano {"placeholder":"getvariable","values":{"name":"hydra_get"}}
+  height = 20
+}
+
