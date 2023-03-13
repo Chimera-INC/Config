@@ -1,0 +1,30 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_434
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = quitgame
+  x = 157
+  width = 100
+  actionid = 4c2ab803-f63f-43ae-bb33-d3df2faea1e91678278009206
+  action = addbutton
+  y = 121
+  label = Crash
+  value = 
+  height = 20
+}
+

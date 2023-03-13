@@ -1,0 +1,109 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_4325
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=600968%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=9106%
+  orientation = mid-centered
+  x = -141
+  action = movebutton
+  y = -30
+}
+
+customization {
+  identifier = %id=9106%
+  width = 7
+  action = resizebutton
+  height = 75
+}
+
+customization {
+  identifier = %id=5476%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=349424%
+  orientation = top-left
+  x = 68
+  action = movebutton
+  y = -9
+}
+
+customization {
+  advanced_height = {"placeholder":"guiheight"}
+  identifier = %id=349424%
+  width = 50
+  action = resizebutton
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 0
+  width = %guiwidth%
+  actionid = 6ef33065-834e-43e4-8340-09d196b73f7f1676452046494
+  action = addbutton
+  y = 0
+  label = e
+  value = 
+  height = %guiheight%
+}
+
+customization {
+  identifier = %id=552537%
+  path = sound-effects/MGA.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=552560%
+  action = setbuttonlabel
+  value = Be Gate's Bitch!
+}
+
+customization {
+  identifier = %id=552560%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = screenshots/2023-01-25_17.41.15.png
+}
+
+customization {
+  identifier = %id=552560%
+  path = sound-effects/MGA.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=552560%
+  path = sound-effects/MGA.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=552560%
+  action = setbuttondescription
+  description = Don't
+}
+
