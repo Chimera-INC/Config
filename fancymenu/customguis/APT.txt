@@ -1,3 +1,0 @@
-identifier = APT
-title = HYDRA-WGET Package manager
-allowesc = true
